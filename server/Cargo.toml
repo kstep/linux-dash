@@ -1,0 +1,15 @@
+[package]
+name = "linux-dash-server"
+version = "0.0.1"
+authors = ["Konstantin Stepanov <me@kstep.me>"]
+license = "MIT"
+keywords = ["linux-dash", "dashboard", "status", "http"]
+
+[dependencies]
+iron = "*"
+staticfile = "*"
+mount = "*"
+
+[[bin]]
+name = "index"
+path = "index.rs"
